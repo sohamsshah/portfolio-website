@@ -79,6 +79,108 @@ hr{
     color: var(--primary-color); 
 }
 
+.list-non-bullet{
+    list-style-type: none;
+    
+}
+
+.list-item-inline{
+    display: inline;
+    padding-right: 0.5rem;
+
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation a{
+    color: white;
+    text-decoration: none;  
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/** header **/
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero-img{
+    max-width: 80%;
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .heading-inverted{
+    color: var(--primary-color);
+}
+
+/** section **/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer h1{
+    margin: 0.5rem;
+}
+
+.footer .link{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
