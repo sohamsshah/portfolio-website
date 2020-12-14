@@ -17,7 +17,7 @@ h2, h1, h3, p, small{
 }
 
 .heading-inverted{
-    color: var(--primary-color);
+    color: var(--dark-ocean);
     font-weight: bold;
 }
 
@@ -91,6 +91,7 @@ hr{
 
 .list-non-bullet{
     list-style-type: none;
+    margin-left:-3rem;
     
 }
 
@@ -144,7 +145,7 @@ hr{
     font-size: 2.2rem;
 }
 
-.hero .heading-inverted{
+.hero{
     color: var(--primary-color);
 }
 
@@ -209,6 +210,7 @@ hr{
     background-color: var(--dark-ocean);
     color: var(--off-white);
 }
+
 
 
 
