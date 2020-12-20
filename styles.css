@@ -21,6 +21,9 @@ h2, h1, h3, p, small{
     font-weight: bold;
 }
 
+ul{
+    padding-inline-start: 0px;
+}
 
 hr{
     margin: 2rem 0rem;
@@ -227,6 +230,15 @@ hr{
 .flex-project{
     display:flex;
     padding: 0px;
+}
+
+/* Blog */
+
+.blog-title{
+    text-align: left !important;
+    color: var(--dark-ocean);
+    font-size: 2rem;
+    text-decoration: underline;
 }
 
 
